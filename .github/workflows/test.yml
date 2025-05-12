@@ -12,9 +12,6 @@ jobs:
   build:
     runs-on: vds2414219
 
-    strategy:
-      matrix:
-        java-version: [ 17, 21 ]
     steps:
       - name: Check out code
-        uses: actions/checkout@v1
+        uses: actions/checkout@v3
